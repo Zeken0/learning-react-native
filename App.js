@@ -13,22 +13,39 @@ import {
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
+    <View
+      style={{
+        backgroundColor: "#fff",
+        flex: 1,
+      }}
+    >
       <View
         style={{
           backgroundColor: "dodgerblue",
-          width: "50%",
-          height: 70,
+          flex: 1,
         }}
-      ></View>
-    </SafeAreaView>
+      />
+      <View
+        style={{
+          backgroundColor: "gold",
+          flex: 1,
+        }}
+      />
+
+      <View
+        style={{
+          backgroundColor: "tomato",
+          flex: 1,
+        }}
+      />
+    </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
+//   },
+// });
