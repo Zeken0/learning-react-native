@@ -14,15 +14,13 @@ import {
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Button
-        title="Click Me"
-        onPress={() =>
-          Alert.alert("Alert", "Are you sure", [
-            { text: "Yes", onPress: () => console.log("Yes i am") },
-            { text: "No", onPress: () => console.log("I am not") },
-          ])
-        }
-      />
+      <View
+        style={{
+          backgroundColor: "dodgerblue",
+          width: "50%",
+          height: 70,
+        }}
+      ></View>
     </SafeAreaView>
   );
 }
