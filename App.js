@@ -35,7 +35,7 @@ export default function App() {
       <View
         style={{
           backgroundColor: "tomato",
-          flex: 1,
+          flex: 2,
         }}
       />
     </View>
