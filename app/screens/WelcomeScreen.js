@@ -9,7 +9,7 @@ function WelcomeScreen() {
     >
       <View style={styles.logoContainer}>
         <Image style={styles.logo} source={require("../assets/logo-red.png")} />
-        <Text>Sell what you don't need</Text>
+        <Text>Sell what you don't need!</Text>
       </View>
       <View style={styles.loginButton}></View>
       <View style={styles.registerButton}></View>
