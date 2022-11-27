@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.black,
     flex: 1,
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
   },
   image: {
     width: "100%",
