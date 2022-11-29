@@ -20,7 +20,7 @@ function WelcomeScreen() {
 
 const styles = StyleSheet.create({
   background: {
-    flex: 1,
+    flex: 2,
     justifyContent: "flex-end",
     alignItems: "center",
   },
