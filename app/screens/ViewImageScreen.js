@@ -19,7 +19,7 @@ function ViewImageScreen(props) {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.black,
-    flex: 12,
+    flex: 1,
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
   },
   image: {
